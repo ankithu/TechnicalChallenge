@@ -15,6 +15,9 @@
 		5A53B66125E194EC00B9F33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A53B65F25E194EC00B9F33F /* LaunchScreen.storyboard */; };
 		5A53B66C25E194ED00B9F33F /* Stryd_Tech_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53B66B25E194ED00B9F33F /* Stryd_Tech_ChallengeTests.swift */; };
 		5A53B67725E194ED00B9F33F /* Stryd_Tech_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53B67625E194ED00B9F33F /* Stryd_Tech_ChallengeUITests.swift */; };
+		5A53B68825E19C6500B9F33F /* MetricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53B68725E19C6500B9F33F /* MetricTableViewCell.swift */; };
+		5A53B68D25E1ACFB00B9F33F /* MetricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53B68C25E1ACFB00B9F33F /* MetricViewController.swift */; };
+		5A53B69225E1B47200B9F33F /* MetricDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53B69125E1B47200B9F33F /* MetricDataTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5A53B67225E194ED00B9F33F /* Stryd Tech ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stryd Tech ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53B67625E194ED00B9F33F /* Stryd_Tech_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stryd_Tech_ChallengeUITests.swift; sourceTree = "<group>"; };
 		5A53B67825E194ED00B9F33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A53B68725E19C6500B9F33F /* MetricTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricTableViewCell.swift; sourceTree = "<group>"; };
+		5A53B68C25E1ACFB00B9F33F /* MetricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricViewController.swift; sourceTree = "<group>"; };
+		5A53B69125E1B47200B9F33F /* MetricDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricDataTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,12 @@
 				5A53B65625E194EA00B9F33F /* SceneDelegate.swift */,
 				5A53B65825E194EA00B9F33F /* ViewController.swift */,
 				5A53B65A25E194EA00B9F33F /* Main.storyboard */,
+				5A53B68725E19C6500B9F33F /* MetricTableViewCell.swift */,
 				5A53B65D25E194EC00B9F33F /* Assets.xcassets */,
 				5A53B65F25E194EC00B9F33F /* LaunchScreen.storyboard */,
 				5A53B66225E194EC00B9F33F /* Info.plist */,
+				5A53B68C25E1ACFB00B9F33F /* MetricViewController.swift */,
+				5A53B69125E1B47200B9F33F /* MetricDataTableViewCell.swift */,
 			);
 			path = "Stryd Tech Challenge";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A53B65925E194EA00B9F33F /* ViewController.swift in Sources */,
+				5A53B68D25E1ACFB00B9F33F /* MetricViewController.swift in Sources */,
 				5A53B65525E194EA00B9F33F /* AppDelegate.swift in Sources */,
 				5A53B65725E194EA00B9F33F /* SceneDelegate.swift in Sources */,
+				5A53B68825E19C6500B9F33F /* MetricTableViewCell.swift in Sources */,
+				5A53B69225E1B47200B9F33F /* MetricDataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
